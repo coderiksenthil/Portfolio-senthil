@@ -1,0 +1,93 @@
+body {
+	background-color: rgb(26, 26, 26);
+}
+
+.name {
+color:white;
+align: center;
+}
+
+.go{
+color: white;
+Text-decoration: none;
+align: center;
+}
+
+.howto{
+color:white;
+}
+
+
+.body_main {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	max-width: 1400px;
+	margin:auto;
+        
+}
+
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: darkgrey;
+	background-color: rgb(26, 26, 26);
+	border: none;
+	outline: none;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+#game_window {
+	height: 675px;
+	width: 750px;	
+	position: relative;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+        border-radius: 10px;
+}
+
+#driver	{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.trace {
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	background-color: darkgrey;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.telemetry {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+	color: darkgrey;
+}
+
+.telLineCont {
+	display: flex;
+	padding: 0.5rem;
+}
+
+.telValue {
+	padding-left: 0.5rem;
+}
+
+.techmaniac {
+color:white;
+}

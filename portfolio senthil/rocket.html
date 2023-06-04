@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Your Mission - Captain (in beta)</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style_1.css">
+	
+<script src="assets/js/code_1.js"></Script>
+</head>
+
+<body>
+              <center> <h1 class ="name">The Rocket Game</h1>
+                        <p class ="howto">How to play?
+                         <br>
+                         Just use up,down,right,left arrow to reach till the above line (that Zero-G), <br>i callenge you, you can't go in a straight line (i.e total displacement or total dist in game)<br>Hope you enjoy the game.
+                         </p>
+                             <a href = "index.html" class= "go" >Click to Go Back to website </a></center>
+                             <br>
+               
+ 	        <div class="body_main">
+                <div id="game_window">
+		<div id="driver"></div>
+		<div class="telemetry">                            
+		
+			<div class="telLineCont">
+				<div class="telLabel">time:</div>
+				<div class="telValue" id="time">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">Vel:</div>
+				<div class="telValue" id="Vel">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">Altitude:</div>
+				<div class="telValue" id="Alt">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">Pitch:</div>
+				<div class="telValue" id="Pitch">#N/A</div>
+			</div>
+
+                        <!---Variable Valve Event and Lift-->
+			<div class="telLineCont"> 
+				<div class="telLabel">Vvel:</div>
+				<div class="telValue" id="Vvel">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">Hvel:</div>
+				<div class="telValue" id="Hvel">#N/A</div>
+			</div> 
+			<div class="telLineCont">
+				<div class="telLabel">Vdist:</div>
+				<div class="telValue" id="Vdist">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">Hdist:</div>
+				<div class="telValue" id="Hdist">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">Total Dist:</div> <!--Displacement -->
+				<div class="telValue" id="TotDist">#N/A</div>
+			</div>
+
+
+
+                                <div class="telLineCont">
+				<div class="telLabel">Drag:</div>
+				<div class="telValue" id="Drag">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">xDrag:</div>
+				<div class="telValue" id="xDrag">#N/A</div>
+			</div>
+			<div class="telLineCont">
+				<div class="telLabel">yDrag:</div>
+				<div class="telValue" id="yDrag">#N/A</div>
+			</div>
+		</div>
+		</div>
+		<button class="button" id="LaunchButton" onclick="RunEngine()">CLICK HERE OR HIT SPACE TO LAUNCH</button>
+	</div>
+<center><p class = "techmaniac"> This is publish under MIT lisence, will publish the liscene soon </p> </center>
+
+</body>
+
+</html>
