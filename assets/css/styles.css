@@ -522,4 +522,87 @@ img{
     }
 }
 
-
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+  }
+  
+  .icon-container img {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+  }
+  
+  .greeting {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .text-container {
+    flex-grow: 1;
+  }
+  
+  .question {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .caption {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .get-listed-link {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      padding: 6px 12px;
+      border-radius: 12px;
+    }
+  
+    .icon-container img {
+      width: 24px;
+      height: 24px;
+      margin-right: 2px;
+    }
+  
+    .greeting {
+      font-size: 12px;
+    }
+  
+    .question {
+      font-size: 14px;
+    }
+  
+    .caption {
+      font-size: 10px;
+    }
+  
+    .get-listed-link {
+      padding: 4px 8px;
+      font-size: 10px;
+    }
+  }
